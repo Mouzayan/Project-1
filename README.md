@@ -38,6 +38,10 @@ Article page
 Search topic random results page
 !(imageALT)[[https://imgur.com/a/RtsPIoW]
 
+### For Desktop
+Homepage  
+!(imageALT)[https://www.figma.com/file/ddRNzflq21VaMQR7b73yAQ/Project-1?node-id=24%3A63]
+
 
 
 
