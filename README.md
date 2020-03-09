@@ -1,5 +1,4 @@
 
-Project 1 title:
 newSmasher
 
 Project description: 
@@ -43,9 +42,9 @@ Search topic random results page
 
 
 
-Explain technologies used, approaches taken, a link to your live site, relevant instructions for viewers, and any unsolved problems.
+<!-- Explain technologies used, approaches taken, a link to your live site, relevant instructions for viewers, and any unsolved problems.
 
 
 Host on Surge
-** I promise to add an attribution link on my website or app to NewsAPI.org.
+** I promise to add an attribution link on my website or app to NewsAPI.org. -->
 
