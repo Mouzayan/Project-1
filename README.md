@@ -29,6 +29,7 @@ newsapi.org
 ## Wireframes
 <!-- Mockups of your app on desktop, tablet, and mobile. -->
 ### For iPhone
+
 [Homepage ](https://imgur.com/a/L5Wrl9K.png)
 
 [Article page](https://imgur.com/a/5Ct0Xma.png)
@@ -37,10 +38,6 @@ newsapi.org
 
 ### For Desktop 
 [Homepage](https://www.figma.com/file/ddRNzflq21VaMQR7b73yAQ/Project-1?node-id=24%3A63)
-
-
-
-
 
 
 <!-- Explain technologies used, approaches taken, a link to your live site, relevant instructions for viewers, and any unsolved problems.
