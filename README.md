@@ -1,7 +1,7 @@
 
-#newSmasher
+# newSmasher
 
-##Project description
+## Project description
 Today’s news consumption is marked by increasing tribalism.   newSmasher is 
 an application that broadens the user’s perspective about news topics by exposing 
 them to viewpoints outside of their go to news sources. the application randomly 
@@ -11,24 +11,24 @@ that specific topic. These sources are not only from different publications but 
 from outlets in different parts of the world.  Users have the option to filter 
 the article selection according to a specified date range.
 
-##MVP
+## MVP
 The MVP will select 5 randomized stories according to a single topic entry (input 
 form) and list them in a feed, featuring headline, description, date, source and 
 image pulled from the news API.  Upon clicking on a story, the user is presented with 
 an full article view.
 
-##Post MVP
+## Post MVP
 Post MVP also allows user to select date range via a drop down menu and orders the 
 stories in the feed in reverse chronological order. 
 
-##API used
+## API used
 News API 
 newsapi.org
 
 
-##Wireframes
+## Wireframes
 <!-- Mockups of your app on desktop, tablet, and mobile. -->
-###For iPhone
+### For iPhone
 Homepage  
 !(imageALT)[https://imgur.com/a/L5Wrl9K.png]
 
