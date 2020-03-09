@@ -29,18 +29,23 @@ newsapi.org
 ## Wireframes
 <!-- Mockups of your app on desktop, tablet, and mobile. -->
 ### For iPhone
-Homepage  
-!(imageALT)[https://imgur.com/a/L5Wrl9K.png]
+Homepage 
+
+![](https://imgur.com/a/L5Wrl9K.png)
 
 Article page
-!(imageALT)[https://imgur.com/a/5Ct0Xma.png]
+
+![](https://imgur.com/a/5Ct0Xma.png)
 
 Search topic random results page
-!(imageALT)[[https://imgur.com/a/RtsPIoW]
+
+![](https://imgur.com/a/RtsPIoW)
 
 ### For Desktop
 Homepage  
-!(imageALT)[https://www.figma.com/file/ddRNzflq21VaMQR7b73yAQ/Project-1?node-id=24%3A63]
+
+![](https://www.figma.com/file/ddRNzflq21VaMQR7b73yAQ/Project-1?node-id=24%3A63)
+
 
 
 
