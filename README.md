@@ -13,7 +13,7 @@ from outlets in different parts of the world.  Users have the option to filter
 the article selection according to a specified date range.
 
 MVP:
-The MVP will select 6 randomized stories according to a single topic entry (input 
+The MVP will select 5 randomized stories according to a single topic entry (input 
 form) and list them in a feed, featuring headline, description, date, source and 
 image pulled from the news API.  Upon clicking on a story, the user is presented with 
 an full article view.
@@ -28,9 +28,24 @@ newsapi.org
 
 
 Wireframes: Mockups of your app on desktop, tablet, and mobile.
+iPhone:
+Homepage  
+!(imageALT)[https://imgur.com/a/L5Wrl9K.png]
+
+Article page
+!(imageALT)[https://imgur.com/a/5Ct0Xma.png]
+
+Search topic random results page
+!(imageALT)[[https://imgur.com/a/RtsPIoW]
+
+
+
+
+
 
 Explain technologies used, approaches taken, a link to your live site, relevant instructions for viewers, and any unsolved problems.
 
 
-
+Host on Surge
 ** I promise to add an attribution link on my website or app to NewsAPI.org.
+
