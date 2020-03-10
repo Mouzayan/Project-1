@@ -61,27 +61,32 @@ footer {
 
 
 .article-text {
-    display: flex; 
+    display: block; 
     flex-direction: column;
     text-align: left;
     margin-left: 2%;
 }
 
-.article-dtls {
-    display: flex; 
+.article-info {
+    display: block; 
     text-align: left;
     margin-left: 2%;
-    justify-content: flex-start;
-    align-items: left;
-
-    flex-wrap: wrap;
-    align-content: left;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-.article-info1 {
+.article-dtls {
     display: flex; 
-    text-align: left;
-    margin-left: 2%;
+}
+
+.dek {
+    max-width: 30vw;
+    display: flex; 
+}
+
+.article-title {
+    max-width: 30vw;
+    display: flex; 
 }
 
 .article-image {
