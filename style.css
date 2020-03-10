@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+display: block;
+text-align: center;
+}
+
+article {
+    width: 100%;
+    display: flex;
+}
+
+section {
+    width: 80%;
+    display: flex;
+}
+
+aside {
+    width: 20%;
+    display: block;
+    margin-right: 3%;
+}
+
+.jolt-image {
+    display: block; 
+    width: 15vw; 
+    height: 18vh;
+    border: 0.25px solid black;
+}
+
+.jolt-text {
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    display: block;
+}
+
+.left {
+    display: block; 
+    text-align: center;
+    width: 35%;
+    margin-left: 3%;
+}
+
+.middle {
+    display: block; 
+    max-width: 75%;
+    margin-left: 3%;
+    margin-right: 0;
+}
+
+.story {
+    display: flex; 
+    max-width: 70%;
+}
+
+
+.article-text {
+    display: flex; 
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.article-dtls {
+    display: flex; 
+    text-align: left;
+    margin-left: 2%;
+    justify-content: flex-start;
+    align-items: left;
+
+    flex-wrap: wrap;
+    align-content: left;
+}
+
+.article-info1 {
+    display: flex; 
+    text-align: left;
+    margin-left: 2%;
+}
+
+.article-image {
+    width: 15vw; 
+    height: 28vh;
+    border: 1px solid lightgrey;
+    display: flex;
+    object-fit: cover;
+    
+}
+
+#footer-div {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+
+
