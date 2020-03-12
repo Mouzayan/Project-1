@@ -68,7 +68,7 @@ aside {
 
 .article-text {
     margin-left: 1em;
-    border:2px solid black;
+    /* border:2px solid black; */
     width: 35vw; 
     height: 28vh;
     display: flex;
@@ -82,10 +82,21 @@ aside {
     display: flex; 
     flex-direction: row;
     text-align: left;
-    align-content: space-around;
-    border:2px solid black;
+    align-items: flex-start;
+    align-content: flex-start;
+    /* border:2px solid black; */
     width: 35vw; 
-    height: 3vh; 
+    /* height: 3vh;  */
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    padding-top: 0;
+    margin-top: 0;
+    flex-flow: row wrap;
+}
+
+.article-info p {
+    margin:0;
+    padding: 0;
 }
 
 .article-detail {
@@ -93,16 +104,18 @@ aside {
     margin-top: 0;
     font-size: 0.85em;
     font-family: 'Roboto Mono', monospace;
-    font-weight: 600; 
+    font-weight: 400; 
     color: #525050;
     margin-right: 1em;
+    display: flex;
+    margin-left: 5px;
 }
 
 .article-info2 {
     display: flex; 
     flex-direction: column;
     text-align: left;
-    border:2px solid black;
+    /* border:2px solid black; */
     width: 35vw; 
     height: 24vh; 
 }
@@ -112,25 +125,31 @@ aside {
     margin-top: 0;
     font-size: 1em;
     font-family: 'Roboto Slab', serif;
-    font-weight: 400; 
+    font-weight: 300; 
     color: #525050;
     margin-right: 1em; 
     text-justify: inter-word;
     display: block;
     text-align: left;
+    line-height: 1.5em;
+    height: 6em;       
+    overflow: hidden;
 }
 
 .article-title {
     padding: 0;
-    margin-top: 0;
-    font-size: 1em;
+    margin-top: 0.7em;
+    font-size: 1.15em;
     font-family: 'Roboto Mono', monospace;
-    font-weight: 600; 
+    font-weight: 700; 
     color: #000000;
     margin-right: 1em; 
     text-justify: inter-word;
     display: block;
     text-align: left;
+    /* line-height: 1.65em;
+    height: 3.5em;       
+    overflow: hidden; */
 }
 
 

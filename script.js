@@ -67,14 +67,13 @@ form.addEventListener('submit', async (event) => {
             newDiv.innerHTML += `<img class="article-image" src=${articles[i].urlToImage}>`;
             middle.append(newDiv);
 
-            newInfo1.innerHTML += `<p class="article-detail">Article source: ${articles[i].source.name}</p>`;
+            newInfo1.innerHTML += `<p class="article-detail">Source: ${articles[i].source.name}</p>`;
             newDiv2.appendChild(newInfo1);
 
-            newInfo2.innerHTML += `<p class="article-detail">Written by: ${articles[i].author}</p>`;
+            newInfo2.innerHTML += `<p class="article-detail">By: ${articles[i].author}</p>`;
             newDiv2.appendChild(newInfo2);
 
-            newInfo3.innerHTML += `<p class="article-detail">Date
-            published: ${articles[i].publishedAt}</p>`;
+            newInfo3.innerHTML += `<p class="article-detail">On: ${articles[i].publishedAt}</p>`;
             newDiv2.appendChild(newInfo3);
 
             newTitle.classList.add("article-title");
