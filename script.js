@@ -12,7 +12,7 @@ const form = document.querySelector("form");
 
 const smashedNews = async () => {
 
-    let api_url = "http://newsapi.org/v2/top-headlines?country=us&pageSize=100&apiKey=a4001be03ea64ef6981019bb086ecba0";
+    let api_url = "http://newsapi.org/v2/top-headlines?category=business&pageSize=100&apiKey=a4001be03ea64ef6981019bb086ecba0";
     
     const resp = await axios.get(api_url);
     
