@@ -12,7 +12,7 @@ const form = document.querySelector("form");
 
 const smashedNews = async () => {
 
-    let api_url = "http://newsapi.org/v2/top-headlines?category=business&pageSize=100&apiKey=a4001be03ea64ef6981019bb086ecba0";
+    let api_url = "http://newsapi.org/v2/top-headlines?category=technology&pageSize=100&apiKey=a4001be03ea64ef6981019bb086ecba0";
     
     const resp = await axios.get(api_url);
     
@@ -46,6 +46,7 @@ const smashedNews = async () => {
             let newDiv3 = document.createElement('div');
             let newDiv4 = document.createElement('div');
             let newDiv5 = document.createElement('hr');
+            let newDiv6 = document.createElement('hr');
             let newDek = document.createElement("p");
             let newTitle = document.createElement("h4");
             let newInfo3 = document.createElement("p");
@@ -56,6 +57,7 @@ const smashedNews = async () => {
             newDiv3.classList.add('article-info2')
             newDiv4.classList.add('article-text')
             newDiv5.classList.add('story-hr');
+            newDiv6.classList.add('story-hr-white');
             newDiv.classList.add("story");
 
             newDiv.innerHTML += `<img class="article-image" src=${articles[i].urlToImage}>`;
@@ -84,7 +86,9 @@ const smashedNews = async () => {
 
             if (i !== 4){
             middle.appendChild(newDiv5);
-            };
+            } else {
+                middle.appendChild(newDiv6);
+                };
             
          };
 
@@ -139,6 +143,7 @@ form.addEventListener('submit', async (event) => {
             let newDiv3 = document.createElement('div');
             let newDiv4 = document.createElement('div');
             let newDiv5 = document.createElement('hr');
+            let newDiv6 = document.createElement('hr');
             let newDek = document.createElement("p");
             let newTitle = document.createElement("h4");
             let newInfo3 = document.createElement("p");
@@ -149,6 +154,7 @@ form.addEventListener('submit', async (event) => {
             newDiv3.classList.add('article-info2')
             newDiv4.classList.add('article-text')
             newDiv5.classList.add('story-hr');
+            newDiv6.classList.add('story-hr-white');
             newDiv.classList.add("story");
 
             newDiv.innerHTML += `<img class="article-image" src=${articles[i].urlToImage}>`;
@@ -177,7 +183,9 @@ form.addEventListener('submit', async (event) => {
 
             if (i !== 4){
             middle.appendChild(newDiv5);
-            };
+            } else {
+                middle.appendChild(newDiv6);
+                };
             
          } 
  
