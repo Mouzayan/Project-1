@@ -92,11 +92,6 @@ aside {
     padding-top: 0;
     margin-top: 0;
     flex-flow: row wrap;
-
-    /* line-height: 1.275em;
-    height: 6em;       
-    overflow: hidden; */
-    
 }
 
 .article-info p {
@@ -155,11 +150,11 @@ aside {
     display: block;
     text-align: left;
     
-    overflow: hidden;
+    /* overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 3; */
    
 }
 
@@ -236,7 +231,7 @@ aside {
     margin-bottom: 18px; 
     width: 16vw;
     border-radius: 5px;
-    border: 0.5px solid #525050;
+    border: 0.8px solid #525050;
     margin-left: 0;
     font-size: 1em; 
     padding: 5px 10px;
@@ -286,9 +281,9 @@ aside {
     text-align: left;
 }
 
-#opening-randomize p{
-    padding-top: 2.585em; 
-    padding-bottom: 2.585em; 
+#opening-randomize p {
+    padding-top: 3.585em; 
+    padding-bottom: 3.585em; 
 } 
 
 .left p {
@@ -425,6 +420,66 @@ header p {
 
     #opening-mantra {
         display: none;
+    }
+
+    .left {
+        display: block; 
+        text-align: center;
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    .middle {
+        display: block; 
+        max-width: 100%;
+        margin-left: 3%;
+        margin-right: 0;
+        padding-top: 2em;  
+    }
+
+    article {
+        width: 100%;
+        display: block;
+    }
+    
+    section {
+        width: 100%;
+        display: block;
+    }
+
+    #opening-randomize p{
+        padding-top: 0.25em; 
+        padding-bottom: 0.25em; 
+    } 
+
+    #user-search-word {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 1.5em;
+    }
+
+    #prod {
+        font-family: 'Roboto Mono', monospace;
+        color: #000000;
+        padding-top: 0;
+        margin-top: 0;
+        font-size: 1em; 
+        font-weight: 700; 
+        text-justify: center; 
+        text-align: center;
+        max-width: 65vw;
+    }
+
+    #keyword {
+        margin-bottom: 18px; 
+        width: 70vw;
+        border-radius: 5px;
+        border: 0.5px solid #525050;
+        margin-left: 0;
+        font-size: 1em; 
+        padding: 5px 10px;
     }
 
 
