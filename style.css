@@ -382,7 +382,7 @@ header p {
 }
 
 /* media query for mobile phones */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     html {
         font-size: 14px;
       }
@@ -498,7 +498,7 @@ header p {
     
     .article-image {
         width: 35vw; 
-        height: 20vh; 
+        height: 18vh; 
     }
     
     .article-text {
@@ -520,7 +520,20 @@ header p {
         height: 28vh; 
     }
     
+    .article-title {
+       max-height: 3em;
+       font-size: 1em;
+       display: block;
+       max-width: 68vw;
+    }
 
+    header p {
+        padding-top:0;
+    }
+
+    .invisible {
+        display: none;
+    } 
 
 }
 
