@@ -9,13 +9,12 @@ const form = document.querySelector("form");
 // ======================================
 // =========  on load function ==========
 // ======================================
-
 const smashedNews = async () => {
 
     let api_url = "http://newsapi.org/v2/top-headlines?category=technology&pageSize=100&apiKey=a4001be03ea64ef6981019bb086ecba0";
-    
+  
     const resp = await axios.get(api_url);
-    
+    console.log("l worekd")
     console.log(resp.data.articles);
     
     let articles = resp.data.articles;
