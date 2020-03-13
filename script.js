@@ -93,6 +93,8 @@ const smashedNews = async () => {
 };
 };
 
+smashedNews();
+
 
 // ======================================
 // ========keyword Search event =========
