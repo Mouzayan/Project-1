@@ -527,13 +527,23 @@ header p {
        max-width: 68vw;
     }
 
+    .article-detail {
+        max-height: 1em;
+       display: block;
+       max-width: 67vw;
+    }
+
     header p {
         padding-top:0;
     }
 
     .invisible {
         display: none;
-    } 
+    }
+
+    .dek {
+    padding-top: 1em;
+    }
 
 }
 
