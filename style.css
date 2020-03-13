@@ -1,3 +1,13 @@
+:root {
+    box-sizing: border-box;
+  }
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
+
+
 body {
     margin: 0px;
     padding: 0px;
@@ -6,6 +16,7 @@ body {
 header {
 display: block;
 text-align: center;
+margin: 0 auto;
 }
 
 article {
@@ -330,8 +341,9 @@ aside {
 
 header hr {
     background-color: #878686;
-    margin: 0;
     height: 0.75px;
+    text-align:center; 
+    margin: 0 auto;
 }
 
 header p {
@@ -547,6 +559,11 @@ header p {
     padding-top: 1em;
     }
 
+    body {
+        display: inline-block;
+        margin: 0px auto;
+        text-align: center;
+}
 }
 
 /* media query for tablet */
@@ -684,7 +701,7 @@ header p {
         display: flex; 
         flex-direction: column;
         text-align: left;
-        width: 68vw; 
+        width: 58vw; 
         height: 28vh; 
     }
     
@@ -692,14 +709,14 @@ header p {
        max-height: 40px;
        font-size: 1em;
        display: block;
-       max-width: 68vw;
+       max-width: 58vw;
        margin-bottom: 1em;
     }
 
     .article-detail {
         max-height: 1em;
        display: block;
-       max-width: 67vw;
+       max-width: 63vw;
     }
 
     header p {
@@ -715,5 +732,10 @@ header p {
     padding-top: 1em;
     }
 
+    body {
+            display: inline-block;
+            margin: 0px auto;
+            text-align: center;
+    }
 }
 
